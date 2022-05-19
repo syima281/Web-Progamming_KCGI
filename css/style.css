@@ -1,0 +1,263 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/bg1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: #53CFDA;
+	font-size: 40px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #FFC900;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
+}
+nav ul li a{
+	color: rgb(12, 10, 10);
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: #53CFDA;
+	transition: .4s;
+}
+
+.content{
+	position: absolute;
+	top: 60%;
+	right:8%;
+	transform: translateY(-30%);
+
+}
+h1{
+	color: #53CFDA;
+	margin: 20px 0px 20px;
+	font-size: 100px;
+}
+h3{
+	color: rgb(10, 10, 10);
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+h4{
+	color: rgba(15, 15, 15, 0.8);
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-image: url(../img/pink-bg.jpg);
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: black;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: black;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: black;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+
+
+.experience{
+	background-image: url(../img/papertexture-bg.jpg);
+	width: 100%;
+	height:100vh;
+	padding: 100px 0px;
+}
+.title h2{
+	color: black;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 500px;
+	width: 340px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+h6{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 15px;
+}	
+.pra p{
+	color: white;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.contact-me{
+	background-image: url(../img/vintage.jpg);
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.contact-me{
+	width: 100%;
+	height: 800px;
+	
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me h2{
+    color: black;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;	
+}
+
+
+.contact-me p{
+	color: rgb(12, 11, 11);
+	letter-spacing: 1px;
+	line-height: 1px;
+	font-size: 20px;
+	
+	margin-bottom: 45px;
+}
+.contact-me .button-two{
+	background-color:#53CFDA;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.contact-me .button-two:hover{
+	background-color: #FFC900;
+	border: 2px solid #FFC900;
+	cursor: pointer;
+}
+
+.social{
+	display: flex;
+}
+
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #53CFDA;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color:#050505;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover{
+	transform: scale(1.3);
+    transition: .3s;
+}
+
+.end{
+	position: absolute;
+	color: #53CFDA;
+	bottom: 35px;
+	font-size: 14px;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
